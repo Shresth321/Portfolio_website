@@ -1,0 +1,213 @@
+body {
+  background-color: #26393c;
+  color: bisque;
+    font-family: "Poppins", sans-serif;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+#element{
+    color:#b7673c
+}
+#element:hover{
+    color: #bb99bb;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #374d50;
+    
+}
+nav ul{
+
+    display :flex;
+    justify-content: space-around;
+
+
+    }
+
+   nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+   } 
+   nav ul li a{
+    
+    text-decoration: none;
+    color: #c1c2c3;
+    
+   }
+   nav ul li a:hover{
+    color:#b7673c;
+    font-size:1.05rem;
+   }
+
+   .left{
+    font-size: 1.5rem;
+   }
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+    font-size: 1rem;
+    
+
+}
+
+
+.firstsection > div{
+    width: 40%;
+    
+}
+.photo > div{
+    width: 40%;
+}
+
+
+.leftsection{
+    
+   width: 90%;
+   font-size: 2.5rem;
+}
+
+.rightsection img{
+    width: 80% 0;
+    margin: 10px;
+}
+.white {
+   color : #b7673c;
+}
+
+.secondsection{
+    margin: auto;
+    max-width: 80vw;
+    margin-top: 2rem;
+
+}
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1px;
+    background-color: hsl(300, 34%, 66%);
+    text-decoration-color: none;
+}
+.bot{
+    margin: 5%;
+    padding: 2px;
+    background-color: hsl(300, 34%, 66%);
+    color :#26393c;
+    font-size: 1rem;
+}
+.bot:hover{
+    color: blueviolet;
+}
+#about {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+  }
+  
+  .project-card {
+    background-color: #c1c2c3;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: #374d50;
+    color: #374d50;
+  }
+  
+  .project-card h2 {
+    font-size: 1.5em;
+  }
+  
+  .project-card a {
+    color: #0a74da;
+    text-decoration: none;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+
+
+/*========================About page =======================================================*/
+
+.photo{
+    display:flex;
+    justify-content: space-around;
+    width: 0 30%;
+}
+
+.aboutme{
+    margin: 4rem 3rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-family: Helvetic;
+    padding: 0 0;
+}
+
+.leftsection2  p{
+    font-family: Helvetic, Arial, Helvetica, sans-serif;
+    margin: 0 5rem; 
+    padding: 0 0;
+    font-size: 1.5em;
+    margin-right: 1rem;
+}
+
+
+.leftsection2 li{
+    margin: 0 6rem;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightsection2 img{
+    margin: 2rem 5rem;
+    
+}
+
+/*---------Experiences---------------*/
+
+.leftsection2 h2{
+    margin-left: 3rem;
+}
+.text-blue{
+  font-size: 1.5em;
+  color: #b7673c;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.secondsection h1{
+
+  text-decoration: underline ;
+  color: #e4c3e4;
+  font-size: 3.5rem;
+}
+
+.box{
+  margin-top:4rem ;
+  background-color: #eeebeb;
+  height: 2px;
+  width:  0 80vw;
+}
+
+.secondsection .vertical-line{ 
+  height : 4em;
+  width: 2px;
+}
