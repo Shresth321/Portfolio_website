@@ -99,13 +99,20 @@ hr{
 }
 .bot{
     margin: 5%;
-    padding: 2px;
-    background-color: hsl(300, 34%, 66%);
-    color :#26393c;
-    font-size: 1rem;
+    padding: 5px;
+    background-color: var(--bg-color);
+    color : rgb(107, 107, 107);
+    font-size: 1.2rem ;
+    font-style: bolder;
+    
+    list-style: none;
+}
+button{
+  text-decoration: none;
 }
 .bot:hover{
-    color: blueviolet;
+    color: #4a747a;
+    
 }
 #about {
     padding: 50px;
@@ -184,30 +191,46 @@ hr{
 
 /*---------Experiences---------------*/
 
-.leftsection2 h2{
-    margin-left: 3rem;
-}
-.text-blue{
-  font-size: 1.5em;
-  color: #b7673c;
-  font-family: 'Times New Roman', Times, serif;
+.education{
+margin-top: 2rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+} 
+
+.education .education-row{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
-.secondsection h1{
+.education-row .education-column{
+  flex:  1 1 40%;
+  max-width: 500px;
+}
+:root{
+  --main-color: #374d50;
+  --bg-color: #1f2f32; 
+}
+.education-column .Title{
 
-  text-decoration: underline ;
-  color: #e4c3e4;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  margin: 0 1 1.5rem 2rem;
+}
+.education-column .education-row{
+  border-left: 2rem solid var(--main-color);
+  
 }
 
-.box{
-  margin-top:4rem ;
-  background-color: #c1c2c3;
-  height: 2px;
-  width:  0 80vw;
+
+.education-box .education-content{
+  position: relative;
+  padding-left: 2rem;
 }
 
-.secondsection .vertical-line{ 
-  height : 4em;
-  width: 2px;
-}
+
+
