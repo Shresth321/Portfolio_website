@@ -104,8 +104,11 @@ hr{
     color : rgb(107, 107, 107);
     font-size: 1.2rem ;
     font-style: bolder;
-    
     list-style: none;
+}
+
+.bot1{
+  text-decoration:#efefef;
 }
 button{
   text-decoration: none;
@@ -130,6 +133,7 @@ button{
     padding: 50px;
   }
   
+  
   .project-card {
     background-color: #c1c2c3;
     margin: 20px;
@@ -137,6 +141,11 @@ button{
     border-radius: 8px;
     box-shadow: #374d50;
     color: #374d50;
+  }
+  
+  .project-card:hover {
+    background-color: #bb99bb;
+    
   }
   
   .project-card h2 {
@@ -150,6 +159,7 @@ button{
   
   .project-card a:hover {
     text-decoration: underline;
+     text-decoration-color: black ;
   }
 
 
@@ -199,6 +209,7 @@ margin-top: 2rem;
   flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
+  margin-bottom: ;
 } 
 
 .education .education-row{
@@ -213,24 +224,33 @@ margin-top: 2rem;
   max-width: 500px;
 }
 :root{
-  --main-color: #374d50;
-  --bg-color: #1f2f32; 
+  --main-color: #fffcfc;
+  --bg-color: #f6f6f6; 
 }
 .education-column .Title{
 
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0 1 1.5rem 2rem;
 }
-.education-column .education-row{
+.education-row .education-column{
   border-left: 2rem solid var(--main-color);
+  margin-top: 1.5rem;
   
 }
 
 
-.education-box .education-content{
+.education-box .education-conten{
   position: relative;
   padding-left: 2rem;
+  
+}
+.education-conten{
+  margin-top: 1rem;
 }
 
-
-
+.heading{
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-color: rgb(253, 253, 253) ;
+  ;
+}
