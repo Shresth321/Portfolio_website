@@ -77,8 +77,8 @@ nav ul{
 }
 
 .rightsection img{
-    width: 80% 0;
-    margin: 10px;
+      height: 400px;
+    width: 440px;
 }
 .white {
    color : #b7673c;
@@ -99,20 +99,23 @@ hr{
 }
 .bot{
     margin: 5%;
-    padding: 5px;
+    padding: 10px;
     background-color: var(--bg-color);
     color : rgb(107, 107, 107);
     font-size: 1.2rem ;
-    font-style: bolder;
+    font-style: 1.5 rem;
     list-style: none;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-bottom: 10px ;
+}
+.buttons .bot a{
+  text-decoration: none;
+  color : rgb(107, 107, 107);
+
 }
 
-.bot1{
-  text-decoration:#efefef;
-}
-button{
-  text-decoration: none;
-}
+
 .bot:hover{
     color: #4a747a;
     
@@ -196,7 +199,8 @@ button{
 
 .rightsection2 img{
     margin: 2rem 5rem;
-    
+  
+}
 }
 
 /*---------Experiences---------------*/
@@ -237,6 +241,7 @@ margin-top: 2rem;
   margin-top: 1.5rem;
   
 }
+
 
 
 .education-box .education-conten{
